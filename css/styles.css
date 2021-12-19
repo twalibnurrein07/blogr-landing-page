@@ -1,0 +1,72 @@
+body{
+  margin: 0;
+  font-family: 'Overpass', sans-serif;
+
+}
+h1{
+  text-align: center;
+}
+#section1{
+  background-color: hsl(356,100%,66%);
+  height: 350px;
+  color: hsl(0,0%,100%)!important;
+ border-bottom-left-radius: 90px;
+}
+
+a{
+ color: hsl(0,0%,100%)!important;
+}
+
+.btn-light{
+  border-radius: 12px;
+  color: hsl(355,100%,74%);
+}
+.btn-outline-light{
+  border-radius: 12px;
+}
+.heading{
+  text-align:center;
+  padding-top: 60px;
+}
+
+#section2{
+  background-color: hsl(0,0%,100%);
+  padding-left: 70px;
+}
+
+.col-6.text{
+  padding: 60px;
+}
+
+
+.editor-img{
+  height: 800px;
+  position: relative;
+  bottom:90px;
+  left:70px;
+}
+
+#section3{
+  background-color: hsl(237,17%,21%);
+    color: hsl(0,0%,100%)!important;
+    border-bottom-left-radius: 90px;
+    border-top-right-radius: 90px;
+    height: 400px;
+
+}
+.details{
+  padding:120px;
+}
+.phones-img{
+  float:left;
+  position: relative;
+  bottom:190px;
+}
+
+#section4{
+  background-color: hsl(0,0%,100%)!important;
+
+}
+.laptop-img{
+  float:left;
+}
