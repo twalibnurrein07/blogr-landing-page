@@ -32,18 +32,24 @@ a{
 #section2{
   background-color: hsl(0,0%,100%);
   padding-left: 70px;
+ overflow-x: hidden;
+ overflow-y: initial;
 }
 
 .col-6.text{
   padding: 60px;
 }
 
+.image{
+overflow-x: hidden;
+}
 
 .editor-img{
   height: 800px;
   position: relative;
   bottom:90px;
   left:70px;
+overflow-y: initial;
 }
 
 #section3{
@@ -65,8 +71,16 @@ a{
 
 #section4{
   background-color: hsl(0,0%,100%)!important;
+padding-top: 70px;
 
 }
 .laptop-img{
-  float:left;
+
+  vertical-align:baseline;
+position: relative;
+right: 975px;
+}
+
+.row.two{
+padding: 0;
 }
